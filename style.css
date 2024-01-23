@@ -66,10 +66,12 @@ nav a {
     color: #2e475d;
     font-family: "Lexend Deca", sans-serif;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #fa6742;
 }
 
 /* Modal Styles */
@@ -251,6 +253,7 @@ footer {
 }
 
 .footer-links a {
+    transition: color 0.3s ease;
     color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
@@ -258,4 +261,5 @@ footer {
 
 .footer-links a:hover {
     text-decoration: underline;
+    color: #fa6742;
 }
