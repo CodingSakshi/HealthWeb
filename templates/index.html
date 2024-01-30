@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life++</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lilita+One&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Life<span>++</span></h1>
+        </div>
+        <div class="options">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <a href="login.html" class="login">Login</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">My AI</a>
+        <a href="#">Contests</a>
+        <a href="#">Events</a>
+        <a href="#" id="subscribeBtn">Newsletter</a>
+        <a href="#">Tools</a>
+        <a href="#">Experts</a>
+        <a href="#">Donate</a>
+    </nav>
+
+    <!-- Articles, Blogs, and Stories -->
+
+    <h2>Featured Articles</h2>
+    <section class="featured-section">
+        <div style="background-image: url('../static/images/img1.jpg');">
+            <article>
+                <h3>10 Tips for a Healthy Diet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+        <div style="background-image: url('../static/images/img2.jpg');">
+            <article>
+                <h3>Exercises for Your Heart</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+    </section>
+
+    <h2>Healthy Living Tips</h2>
+    <section class="tips-section">
+        <article>
+            <h3>The Importance of Mental Health</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+            <a href="#">Read more</a>
+        </article>
+        <article>
+            <h3>Finding Balance in Your Daily Life</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+            <a href="#">Read more</a>
+        </article>
+    </section>
+
+    <h2>Wellness Blogs</h2>
+    <section class="featured-section">
+        <div style="background-image: url('../static/images/img3.jpg');">
+            <article>
+                <h3>The Importance of Mental Health</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+        <div style="background-image: url('../static/images/img4.jpg');">
+            <article>
+                <h3>Finding Balance in Your Daily Life</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lectus et ligula ultricies vestibulum...</p>
+                <a href="#">Read more</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Subscription Modal -->
+
+    <div id="subscribeModal">
+        <span id="closeModalBtn">&times;</span>
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="post">
+            <label for="modalEmail">Email:</label>
+            <input type="email" id="modalEmail" name="modalEmail" required>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h1>Life<span>++</span></h1>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

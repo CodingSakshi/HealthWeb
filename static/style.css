@@ -1,0 +1,265 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaf0f6;
+    padding: 10px 120px;
+}
+
+.logo h1 {
+    font-family: "Lilita One", sans-serif;
+    color: #34445c;
+    margin: 0;
+}
+
+.logo span {
+    color: #fa6742;
+}
+
+.options a {
+    color: #ffffff;
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.login {
+    color: #ffffff;
+    background-color: #fa6742;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+.login:hover {
+    background-color: #fa5c35;
+}
+
+#searchInput {
+    background-color: rgba(184, 180, 180, 0.5);
+    padding: 10px 30px 10px 20px;
+    border-width: 0px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaf0f6;
+    padding: 15px 120px;
+}
+
+nav a {
+    color: #2e475d;
+    font-family: "Lexend Deca", sans-serif;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fa6742;
+}
+
+/* Modal Styles */
+
+#subscribeModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: "Lexend Deca", sans-serif;
+    color: #2e475d;
+    font-size: 15px;
+}
+
+#subscribeModal form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#subscribeModal label {
+    margin-bottom: 10px;
+}
+
+#subscribeModal input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+    border: 1px solid #cbd6e2;
+    font-size: 15px;
+}
+
+#subscribeModal input[type="submit"] {
+    background-color: #fa6742;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#subscribeModal input[type="submit"]:hover {
+    background-color: #fa5c35;
+}
+
+/* Overlay Styles */
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Section Styles */
+
+h2 {
+    color: #34445c;
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 25px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.featured-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.featured-section div {
+    width: 47%; /* Adjust as needed */
+    box-sizing: border-box;
+    border: 1px solid #cbd6e2;
+    border-radius: 8px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.featured-section article {
+    text-align: left;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    padding: 20px 50px;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: rgb(238, 238, 238);
+    margin-bottom: 15px;
+}
+
+a {
+    color: #fa6742;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tips section Styles */
+
+.tips-section article h3 {
+    color: #34445c;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+}
+
+.tips-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tips-section article {
+    text-align: left;
+    margin: auto;
+    background-color: rgba(206, 202, 202, 0.5);
+    width: 400px;
+    padding: 20px 50px;
+}
+
+.tips-section article h3 {
+    color: #34445c;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+}
+
+.tips-section article p {
+    color: #555;
+    margin-bottom: 12px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #34445c;
+    color: #ffffff;
+    padding: 20px 120px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo h1 {
+    font-family: "Lilita One", sans-serif;
+    margin: 0;
+}
+
+.footer-logo span {
+    color: #fa6742;
+}
+
+.footer-links a {
+    transition: color 0.3s ease;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #fa6742;
+}
